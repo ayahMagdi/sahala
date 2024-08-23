@@ -1,0 +1,46 @@
+.about{
+    &__info{
+        background-image: url(../../assets/360_F_213567841_SiyyM6H4y067caRy58iLulWazeezPaui.jpg);
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.9);
+        }
+        p{
+            color: #FFF;
+            position: relative;
+            width: 50%;
+            font-size: 20px;
+            line-height: 1.5;
+            text-shadow: 0 0 10px;
+            @media (max-width: 776px) {
+                font-size: 12px;
+                width: 75%;
+            }
+        }
+    }
+    &__img{
+        position: relative;
+        box-shadow: 0 0 15px 10px rgba(0,0,0,.2);
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.7);
+        }
+    }
+}

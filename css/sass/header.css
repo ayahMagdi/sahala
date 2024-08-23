@@ -1,0 +1,171 @@
+.header__contact {
+  background-color: rgb(248, 248, 248);
+}
+.header__contact__col {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+  font-weight: 500;
+}
+.header__contact__col:last-of-type {
+  justify-content: end;
+}
+.header__contact__col__border {
+  position: relative;
+}
+.header__contact__col__border::before {
+  content: "";
+  background-color: rgba(77, 72, 72, 0.431372549);
+  width: 2px;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: -26.5px;
+  transform: translateY(-50%);
+}
+@media (max-width: 776px) {
+  .header__contact__col__border::before {
+    display: none !important;
+  }
+}
+.header__contact__col .fa-solid, .header__contact__col .fas, .header__contact__col .fa-regular, .header__contact__col .far {
+  color: rgb(30, 200, 160);
+}
+@media (max-width: 320px) {
+  .header__contact__col {
+    gap: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
+.header .navbar {
+  background-color: #FFF;
+}
+.header .fixed-top {
+  top: 36px;
+  transition: 0.3s;
+}
+.header .navbar-nav {
+  padding: 0 !important;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 0 !important;
+  padding-right: 1.5rem;
+  font-weight: bold;
+}
+.header .navbar-nav .nav-link.active, .header .navbar-nav .nav-link.show {
+  color: rgb(30, 200, 160);
+}
+.header .carousel {
+  margin-top: 85px;
+}
+.header .carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.header .carousel-item img {
+  height: 625px !important;
+}
+.header .carousel-caption {
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header .carousel-caption h5 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+@media (max-width: 992px) {
+  .header .carousel-caption h5 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 776px) {
+  .header .carousel-caption h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 6px;
+  }
+}
+.header .carousel-caption p {
+  color: rgb(248, 248, 248);
+  font-weight: 400;
+}
+@media (max-width: 992px) {
+  .header .carousel-caption p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 776px) {
+  .header .carousel-caption p {
+    font-size: 10px;
+    margin: 3px;
+  }
+}
+.header .carousel-caption button {
+  border: none;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(30, 200, 160);
+  color: #FFF;
+  font-weight: bold;
+}
+@media (max-width: 992px) {
+  .header .carousel-caption button {
+    width: 160px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 776px) {
+  .header .carousel-caption button {
+    width: 100px;
+    padding: 6px;
+    font-size: 10px;
+    font-weight: normal;
+  }
+}
+.header .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #FFF;
+}
+@media (max-width: 776px) {
+  .header .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+  }
+}
+.header .carousel-indicators .active {
+  background-color: rgb(30, 200, 160);
+  border-color: rgb(30, 200, 160);
+  width: 35px;
+  border-radius: 20px;
+}
+@media (max-width: 776px) {
+  .header .carousel-indicators .active {
+    width: 25px;
+  }
+}
+@media (max-width: 776px) {
+  .header .carousel-control-next-icon, .header .carousel-control-prev-icon {
+    width: 20px;
+  }
+}/*# sourceMappingURL=header.css.map */
