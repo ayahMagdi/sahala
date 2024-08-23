@@ -71,6 +71,11 @@
     padding: 7px 15px;
   }
 }
+@media (max-width: 776px) {
+  .footer__content .footer__subscribe .subscribe__input button {
+    width: 18%;
+  }
+}
 .footer__content .footer__links {
   margin: 35px 0;
   gap: 2%;

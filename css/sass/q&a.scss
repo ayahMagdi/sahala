@@ -28,4 +28,16 @@
         border-bottom: 1px solid #dee2e6;
         margin-bottom: 0;
     }
+
+    .accordion-item:first-of-type>.accordion-header .accordion-button,
+    .accordion-button{
+        @media (max-width: 776px) {
+            font-size: 14px;
+        }
+    }
+    .accordion-body{
+        @media (max-width: 776px) {
+            font-size: 14px;
+        }
+    }
 }

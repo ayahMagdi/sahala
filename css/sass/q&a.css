@@ -26,4 +26,15 @@
 .popular__qa .accordion-flush > .accordion-item:last-child {
   border-bottom: 1px solid #dee2e6;
   margin-bottom: 0;
+}
+@media (max-width: 776px) {
+  .popular__qa .accordion-item:first-of-type > .accordion-header .accordion-button,
+  .popular__qa .accordion-button {
+    font-size: 14px;
+  }
+}
+@media (max-width: 776px) {
+  .popular__qa .accordion-body {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=q&a.css.map */
