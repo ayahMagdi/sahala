@@ -5,8 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (navbar) {
             if (window.scrollY >= 36) {
                 navbar.style.top = '0';
+                navbar.style.boxShadow = '0 0 28px 0px rgba(0,0,0,.1)'
             } else {
                 navbar.style.top = '36px';
+                navbar.style.boxShadow = '0 0 0px 0px rgba(0,0,0,.0)'
             }
         }
     });
