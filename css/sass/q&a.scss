@@ -32,12 +32,13 @@
     .accordion-item:first-of-type>.accordion-header .accordion-button,
     .accordion-button{
         @media (max-width: 776px) {
-            font-size: 14px;
+            font-size: 12px;
+            text-align: right;
         }
     }
     .accordion-body{
         @media (max-width: 776px) {
-            font-size: 14px;
+            font-size: 12px;
         }
     }
 }
